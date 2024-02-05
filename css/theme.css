@@ -1,4 +1,4 @@
-/*  accueil */
+/* Accueil */
 .site-header {
   background: #fff;
 }
@@ -34,7 +34,6 @@ li.admin {
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 li.admin a {
@@ -42,7 +41,6 @@ li.admin a {
   text-decoration: none;
   margin: 0 60px;
   color: #000;
-
   font-family: Syne;
   font-size: 16px;
   font-style: normal;
@@ -53,7 +51,6 @@ li.admin a {
 #content #primary {
   margin: 0;
 }
-
 
 .hero-header {
   background-color: #E3D9D0;
@@ -69,8 +66,8 @@ li.admin a {
   height: 56px;
 }
 
-/*equipe*/
-/*media query fleur equipe */
+/* Équipe */
+/* Media query fleur equipe */
 @media screen and (max-width: 782px) {
   .equipefleur {
     display: none;
@@ -85,14 +82,10 @@ li.admin a {
   background-repeat: no-repeat;
 }
 
-
 .container-form .form-group-textarea {
   z-index: 10;
   max-width: 100%;
-  
 }
-
-
 
 .img-leaf img {
   position: relative;
@@ -102,26 +95,56 @@ li.admin a {
 }
 
 /* Media query pour les écrans de 1440 pixels et plus */
-
 @media screen and (max-width: 1023px) {
   .container-form {
     background: none !important;
   }
 }
-/*Media query pour le titre nous rencontrer en moins de  500 px*/
+
+/* Media query pour le titre nous rencontrer en moins de 500 px */
 @media screen and (max-width: 905px) {
   h1.uagb-heading-text {
     font-size: 32px !important;
   }
 }
 
+/* Retrecir le font-size du titre et du texte */
 @media screen and (max-width: 489px) {
-h1.uagb-heading-text {
-  font-size: 28px !important;
+  h1.uagb-heading-text {
+    font-size: 28px !important;
+  }
+  p.uagb-heading-text {
+    font-size: 18px !important;
+  }
 }
-p.uagb-heading-text {
-  font-size: 18px !important;
+
+/* Aligner correctement le textarea pour largeur inférieure à 420px */
+@media screen and (max-width: 420px) {
+  .form-container .wpcf7-form-control-wrap textarea {
+    width: calc(100% - 20px) !important;
+    max-width: calc(100% - 20px) !important;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+  }
+
+  .form-container .form-group,
+  .form-container .form-group-textarea {
+    width: 100% !important;
+  }
 }
+
+/* Media query pour fleur en moins de 450 px => disparu */
+@media screen and (max-width: 450px) {
+  .img-leaf img {
+    display: none;
+  }
+}
+
+/* Appliquer la même largeur à tous les champs de texte */
+.wpcf7-form-control.wpcf7-text,
+.wpcf7-form-control.wpcf7-textarea {
+  width: 100% !important;
+  max-width: 383px !important;
 }
 
 .custom-label,
@@ -133,12 +156,12 @@ p.uagb-heading-text {
 }
 
 .form-container .wpcf7-form-control-wrap {
-  width: 383px !important;
+  width: 100% !important;
   height: 71px !important;
   border-radius: 7px !important;
 }
 
-.textarea .form-group-textarea .wpcf7-form-control .wpcf7-textarea{
+.textarea .form-group-textarea .wpcf7-form-control .wpcf7-textarea {
   width: 100%;
   height: 237px;
   resize: none;
@@ -147,7 +170,6 @@ p.uagb-heading-text {
 
 /* Style du bouton */
 .wpcf7-submit {
-  /* margin-top: 170px; */
   display: flex !important;
   width: 198px !important;
   height: 55px !important;
@@ -163,7 +185,7 @@ p.uagb-heading-text {
   background: #6b121f !important;
 }
 
-/* commander */
+/* Commander */
 .wp-block-uagb-separator__inner {
   width: 45% !important;
   height: 3px !important;
@@ -191,7 +213,6 @@ p.uagb-heading-text {
   -webkit-appearance: none;
   margin: 0;
 }
-
 
 .form-input-number input {
   width: 42px !important;
@@ -238,7 +259,6 @@ p.uagb-heading-text {
 .input-form {
   width: 100%;
   padding: 10px !important;
-  width: 383px !important;
   height: 71px !important;
   border-radius: 7px !important;
   margin-top: 7px;
@@ -247,12 +267,11 @@ p.uagb-heading-text {
 /* Style pour le bouton */
 .submit-btn-commander {
   margin: 0 auto;
-  margin-top: -160px !important;
   text-align: center;
   margin-top: 15px !important;
 }
 
-/*footer*/
+/* Footer */
 .site-footer .site-navigation .footer-nav-wrap {
   background: #fff !important;
 }
