@@ -29,6 +29,10 @@
 #menu-item-14 a:hover {
   background-color: #6b121f;
 }
+/*mettre en gras la page du header séléctionné*/
+.menu-item.current-menu-item a {
+  font-weight: bold;
+}
 
 li.admin {
   display: flex;
@@ -74,29 +78,32 @@ li.admin a {
   }
 }
 
-.container-form {
+/* Styles spécifiques pour le formulaire "Nous rencontrer" */
+.container-form.container-form-rencontrer {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background-repeat: no-repeat;
+  /* Ajoutez d'autres styles spécifiques si nécessaire */
 }
 
-.container-form .form-group-textarea {
+.container-form.container-form-rencontrer .form-group-textarea {
   z-index: 10;
   max-width: 100%;
+  /* Ajoutez d'autres styles spécifiques pour le champ de texte si nécessaire */
 }
 
 .img-leaf img {
   position: relative;
-  left: -227px;
+  left: -195px;
   top: -300px;
   z-index: 1;
 }
 
 /* Media query pour les écrans de 1440 pixels et plus */
 @media screen and (max-width: 1023px) {
-  .container-form {
+  .container-form.container-form-rencontrer {
     background: none !important;
   }
 }
@@ -184,8 +191,7 @@ li.admin a {
 .wpcf7-submit:hover {
   background: #6b121f !important;
 }
-
-/* Commander */
+/* commander */
 .wp-block-uagb-separator__inner {
   width: 45% !important;
   height: 3px !important;
@@ -213,6 +219,7 @@ li.admin a {
   -webkit-appearance: none;
   margin: 0;
 }
+
 
 .form-input-number input {
   width: 42px !important;
@@ -259,6 +266,7 @@ li.admin a {
 .input-form {
   width: 100%;
   padding: 10px !important;
+  width: 383px !important;
   height: 71px !important;
   border-radius: 7px !important;
   margin-top: 7px;
@@ -269,9 +277,10 @@ li.admin a {
   margin: 0 auto;
   text-align: center;
   margin-top: 15px !important;
+  text-align: center;
 }
 
-/* Footer */
+/*footer*/
 .site-footer .site-navigation .footer-nav-wrap {
   background: #fff !important;
 }
