@@ -112,6 +112,13 @@ li.admin a {
     background: none !important;
   }
 }
+/*Media query pour le titre nous rencontrer en moins de  500 px*/
+
+@media screen and (max-width: 489px) {
+.uagb-heading-text {
+  font-size: 28px !important;
+}
+}
 
 .custom-label,
 .custom-label-textarea {
