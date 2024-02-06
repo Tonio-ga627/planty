@@ -252,6 +252,11 @@ li.admin a {
   line-height: normal;
 }
 
+/* Forcer "Votre Commande" sur une seule ligne uniquement sur la page spécifique */
+body.page-id-487 .uagb-heading-text {
+  white-space: nowrap;
+}
+
 /* Style pour les labels */
 .form-field label {
   color: #FFF;
@@ -282,6 +287,29 @@ li.admin a {
 /* Style pour le bouton dans le formulaire avec la classe "custom-form" */
 .custom-form .submit-btn-commander p {
   margin: 15px 0 0;
+}
+/* Media query pour centrer horizontalement toutes les images en dessous de 781px */
+@media screen and (max-width: 780px) {
+  body {
+    text-align: center;
+  }
+
+  body img {
+    display: inline-block;
+  }
+}
+
+/* Media query pour passer les colonnes en une seule colonne en dessous de 500px */
+@media screen and (max-width: 500px) {
+  .form-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .left-column, .right-column {
+    width: 100%; /* Utilisez 100% de largeur pour chaque colonne */
+    margin-right: 0; /* Ajuste les marges si nécessaire */
+  }
 }
 
 
