@@ -272,13 +272,19 @@ li.admin a {
   margin-top: 7px;
 }
 
-/* Style pour le bouton */
-.submit-btn-commander {
-  margin: 0 auto;
-  text-align: center;
-  margin-top: 15px !important;
+/* Style pour le formulaire avec la classe "custom-form" */
+.custom-form {
+  display: flex;
+  justify-content: center;
   text-align: center;
 }
+
+/* Style pour le bouton dans le formulaire avec la classe "custom-form" */
+.custom-form .submit-btn-commander p {
+  margin: 15px 0 0;
+}
+
+
 
 /*footer*/
 .site-footer .site-navigation .footer-nav-wrap {
