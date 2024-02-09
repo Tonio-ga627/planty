@@ -1,0 +1,325 @@
+/* Accueil */
+.site-header {
+  background: #fff;
+}
+
+.ast-builder-menu-1 .menu-item>.menu-link {
+  padding: 0;
+}
+
+.main-navigation ul {
+  display: flex;
+  justify-content: flex-end;
+  text-align: center;
+}
+
+#main-header-menu {
+  color: #0000;
+}
+
+#menu-item-14 a {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  background-color: #DC9F96;
+  padding: 30px 61px;
+  height: 80px;
+}
+
+#menu-item-14 a:hover {
+  background-color: #6b121f;
+}
+/*mettre en gras la page du header séléctionné*/
+.menu-item.current-menu-item a {
+  font-weight: bold;
+}
+
+li.admin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+li.admin a {
+  color: black;
+  text-decoration: none;
+  margin: 0 60px;
+  color: #000;
+  font-family: Syne;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#content #primary {
+  margin: 0;
+}
+
+.hero-header {
+  background-color: #E3D9D0;
+  box-shadow: 0 10px 0 #DCD5CF !important;
+  border-radius: 0 0 7% 7% !important;
+}
+
+.uagb-button__wrapper {
+  margin-left: -20px;
+}
+
+.btn-q {
+  height: 56px;
+}
+
+/* Équipe */
+/* Media query fleur equipe */
+@media screen and (max-width: 782px) {
+  .equipefleur {
+    display: none;
+  }
+}
+
+/* Styles spécifiques pour le formulaire "Nous rencontrer" */
+.container-form.container-form-rencontrer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  /* Ajoutez d'autres styles spécifiques si nécessaire */
+}
+
+.container-form.container-form-rencontrer .form-group-textarea {
+  z-index: 10;
+  max-width: 100%;
+  /* Ajoutez d'autres styles spécifiques pour le champ de texte si nécessaire */
+}
+
+.img-leaf img {
+  position: relative;
+  left: -195px;
+  top: -300px;
+  z-index: 1;
+}
+
+/* Media query pour les écrans de 1440 pixels et plus */
+@media screen and (max-width: 1023px) {
+  .container-form.container-form-rencontrer {
+    background: none !important;
+  }
+}
+
+/* Media query pour le titre nous rencontrer en moins de 500 px */
+@media screen and (max-width: 905px) {
+  h1.uagb-heading-text {
+    font-size: 32px !important;
+  }
+}
+
+/* Retrecir le font-size du titre et du texte */
+@media screen and (max-width: 489px) {
+  h1.uagb-heading-text {
+    font-size: 28px !important;
+  }
+  p.uagb-heading-text {
+    font-size: 18px !important;
+  }
+}
+
+/* Aligner correctement le textarea pour largeur inférieure à 420px */
+@media screen and (max-width: 420px) {
+  .form-container .wpcf7-form-control-wrap textarea {
+    width: calc(100% - 20px) !important;
+    max-width: calc(100% - 20px) !important;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+  }
+
+  .form-container .form-group,
+  .form-container .form-group-textarea {
+    width: 100% !important;
+  }
+}
+
+/* Media query pour fleur en moins de 450 px => disparu */
+@media screen and (max-width: 450px) {
+  .img-leaf img {
+    display: none;
+  }
+}
+
+/* Appliquer la même largeur à tous les champs de texte */
+.wpcf7-form-control.wpcf7-text,
+.wpcf7-form-control.wpcf7-textarea {
+  width: 100% !important;
+  max-width: 383px !important;
+}
+
+.custom-label,
+.custom-label-textarea {
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #000000;
+}
+
+.form-container .wpcf7-form-control-wrap {
+  width: 100% !important;
+  height: 71px !important;
+  border-radius: 7px !important;
+}
+
+.textarea .form-group-textarea .wpcf7-form-control .wpcf7-textarea {
+  width: 100%;
+  height: 237px;
+  resize: none;
+  border-radius: 7px;
+}
+
+/* Style du bouton */
+.wpcf7-submit {
+  display: flex !important;
+  width: 198px !important;
+  height: 55px !important;
+  color: white !important;
+  padding: 9px 0px !important;
+  justify-content: center !important;
+  align-items: center !important;
+  border-radius: 5px !important;
+  background: #E0B9B4 !important;
+}
+
+.wpcf7-submit:hover {
+  background: #6b121f !important;
+}
+/* commander */
+.wp-block-uagb-separator__inner {
+  width: 45% !important;
+  height: 3px !important;
+}
+
+.white-line {
+  background: #fff !important;
+  height: 3px !important;
+}
+
+/* Style pour le formulaire */
+.form-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row.form-input-number {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 0px;
+}
+
+.row.form-input-number input::-webkit-outer-spin-button,
+.row.form-input-number input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+.form-input-number input {
+  width: 42px !important;
+}
+
+/* Style pour la colonne de gauche */
+.left-column {
+  flex: 1;
+  padding: 10px;
+  padding-bottom: 0px;
+}
+
+/* Style pour la colonne de droite */
+.right-column {
+  flex: 1;
+  padding: 10px;
+  border-left: 1px solid white;
+  padding-left: 20px;
+  padding-bottom: 0px;
+  margin-bottom: 30px;
+}
+
+/* Style pour les titres */
+.title {
+  color: #FFF !important;
+  font-family: 'Syne', sans-serif !important;
+  font-size: 30px !important;
+  font-style: normal;
+  font-weight: 700 !important;
+  line-height: normal;
+}
+
+/* Forcer "Votre Commande" sur une seule ligne uniquement sur la page spécifique */
+body.page-id-487 .uagb-heading-text {
+  white-space: nowrap;
+}
+
+/* Style pour les labels */
+.form-field label {
+  color: #FFF;
+  font-family: 'Syne', sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* Style pour les champs de saisie */
+.input-form {
+  width: 100%;
+  padding: 10px !important;
+  width: 383px !important;
+  height: 71px !important;
+  border-radius: 7px !important;
+  margin-top: 7px;
+}
+
+/* Style pour le formulaire avec la classe "custom-form" */
+.custom-form {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Style pour le bouton dans le formulaire avec la classe "custom-form" */
+.custom-form .submit-btn-commander p {
+  margin: 15px 0 0;
+}
+/* Media query pour centrer horizontalement toutes les images en dessous de 781px */
+@media screen and (max-width: 780px) {
+  body {
+    text-align: center;
+  }
+
+  body img {
+    display: inline-block;
+  }
+}
+
+/* Media query pour passer les colonnes en une seule colonne en dessous de 500px */
+@media screen and (max-width: 500px) {
+  .form-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .left-column, .right-column {
+    width: 100%; /* Utilisez 100% de largeur pour chaque colonne */
+    margin-right: 0; /* Ajuste les marges si nécessaire */
+  }
+}
+
+
+
+/*footer*/
+.site-footer .site-navigation .footer-nav-wrap {
+  background: #fff !important;
+}
+
+.footer-nav-wrap #menu-items-59 {
+  display: flex !important;
+  justify-content: center !important;
+}

@@ -1,0 +1,971 @@
+/*
+Theme Name: Hello Elementor Child
+Theme URI: https://studionumerik.fr/
+Description: Hello Elementor Child Theme
+Author: Studio Numerik
+Author URL: https://studionumerik.fr/
+Template: hello-elementor
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URL: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: hello-elementorchild
+*/
+/* Placer votre CSS ci-dessous */
+/*Page Accueil */
+body {
+    font-family: 'Syne', sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+.site-header {
+    background-color: white;
+    color: black !important;
+    height: 80px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
+.site-header a:active,
+.site-header a:focus,
+.current-menu-item a {
+    font-weight: 700;
+}
+
+img.custom-logo {
+    margin-left: 37px;
+}
+
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+
+.menu-menu-container a{
+	color: black;
+}
+
+.menu-item-21 {
+    background-color: #DC9F96;
+	height: 80px;
+	margin-top: -16px;
+	padding-top: 16px;
+}
+
+.menu-item-21 a{
+    color: white;
+}
+
+
+.elementor-188 .elementor-element.elementor-element-370312a img {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: 112px;
+    object-fit: cover;
+    object-position: center center;
+    margin-left: 0px;
+}
+@media (max-width: 1024px) and (min-width: 768px) {
+.elementor-188 .elementor-element.elementor-element-4997f16 {
+    width: 100%;
+}
+}
+
+@media (max-width: 767px) {
+.elementor-188 .elementor-element.elementor-element-4997f16 {  
+    width: 100%;
+    object-fit: cover;
+}
+}
+
+@media (max-width: 500px) {
+    .elementor-188 .elementor-element.elementor-element-4997f16 {  
+        width: 100%;
+        object-fit: cover;
+    }
+}
+/*cannette*/
+@media (max-width: 500px) {
+.elementor-188 .elementor-element.elementor-element-370312a img {
+    width: 137% !important;
+    max-width: 115% !important;
+    height: 60px;
+    object-fit: cover;
+    object-position: center center;
+    margin-top: 33px;
+    margin-left: -19px;
+} 
+/*titre aligné*/  
+.elementor-element .elementor-element-a4acd17 .titre .elementor-widget .elementor-widget-heading {
+    justify-content: center !important;
+}
+
+
+
+
+/* Styles pour les écrans larges */
+
+/*canette code pour empecher le depassement pour  ecran inf a 500px*/
+
+.cont-can {
+    overflow: hidden !important;
+}
+.attachment-full.size-full.wp-image-243 {
+    overflow: hidden !important;
+}
+
+.titre1, .texte1 {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    text-align: center; 
+}
+.elementor-heading-titleelementor-size-default {
+    width: 100% !important;
+    max-width: 100% !important;
+}
+@media (max-width: 1024px) and (min-width: 768px) {
+.elementor-188.elementor-element.elementor-element-4997f16 {
+    width: 100%;
+}
+}
+.titre1 {
+    top: 200px;
+    z-index: 10000;
+}
+
+
+.banniere {
+    height: 639px;
+    width: 100%;
+    background-color: white;
+    
+}
+/*conteneur canette + image canette*/
+
+/* Styles pour le conteneur de l'image en pleine largeur */
+.cont-can {
+    max-width: 100%; 
+    overflow: hidden; 
+}
+
+/* Styles pour l'image en pleine largeur */
+.attachment-full.size-full.wp-image-243 {
+    width: 100%; /* Largeur de 100% */
+    height: auto; /* Hauteur ajustée automatiquement pour conserver les proportions */
+    object-fit: cover; /* Remplissage de l'espace disponible tout en préservant les proportions */
+}
+
+.attachment-full.size-full.wp-image-243 {
+    object-fit: cover; /* Remplissage de l'espace disponible tout en préservant les proportions */
+    width: 100%; /* Largeur de 100% */
+    height: auto; /* Hauteur ajustée automatiquement pour conserver les proportions */
+    max-width: 100%; /* Largeur maximale de 100% */
+}
+
+
+/*Page Nous rencontrer */
+/*image fati vero marc*/
+.attachment-large.size-large.wp-image-330, 
+.attachment-large.size-large.wp-image-336, 
+.attachment-large.size-large.wp-image-335 {
+    width: 343px;
+    height: 139px;
+}
+.elementor-heading-title.elementor-size-default {
+    margin-top: 60px;
+}
+
+/* Style de base */
+#cont-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+}
+
+.titre, .texte-nr {
+    margin: 0; /* Réinitialise les marges pour éviter tout décalage */
+}
+
+/* Media query pour un écran plus petit */
+@media screen and (max-width: 1024px) {
+    .titre , .texte-nr, .p, .h2 {
+        order: 1; 
+        text-align: center;
+    }
+    .fleur1 {
+        order: 2;
+    }
+}
+
+
+/*banniere equipe*/
+.banniere-nr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden !important;
+}
+/*image fati vero marc*/
+.cont-meg, 
+.cont-bro, 
+.cont-syl {
+    width: 343px;
+    height: 139px;
+    flex: 0 0 30%; /* Ajustez la largeur des éléments en fonction de la taille d'écran */
+    max-width: 30%; /* Ajustez la largeur maximale des éléments si nécessaire */
+    margin-bottom: 20px; 
+}
+
+.fleur1 {
+    width: 145.3px;
+    height: 150.26px;
+    position: absolute;
+    top: 10%; 
+    left: 10%; 
+    transform: rotate(85deg);
+    z-index: 1; 
+}
+@media (max-width: 950px) {
+    .fleur1 {
+        width: 145.3px;
+        height: 150.26px;
+        position: absolute;
+        top: 160%; 
+        left: 40%; 
+        transform: rotate(85deg);
+        z-index: 1000000; 
+    }
+}
+@media (max-width: 605px) {
+    .fleur1 {
+        width: 145.3px;
+        height: 150.26px;
+        position: absolute;
+        top: 190%; 
+        left: 40%; 
+        transform: rotate(85deg);
+        z-index: 1000000; 
+    }
+}
+@media (max-width: 470px) {
+    .fleur1 {
+        width: 125px;
+        height: 130px;
+        position: absolute;
+        top: 240%; 
+        left: 40%; 
+        transform: rotate(85deg);
+        z-index: 1000000; 
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+}
+/*
+@media (max-width: 430px) {
+    .fleur1 {
+    display: none;
+    }
+}
+*/
+/*
+.title {
+	margin-top: 15% !important;
+	text-align: center;
+    position: relative;
+    z-index: 2;
+    font-size: 38px; 
+}
+*/
+@media (max-width: 605px) {
+    .elementor-heading-title.elementor-size-default {
+        margin-top: 20px;
+    }
+}
+
+
+
+.equipe {
+    position: absolute !important;
+    top: 1100% !important; 
+    left: 50% !important; 
+    transform: translate(-50%, -50%) !important;
+    z-index: 1100 !important;
+}
+.form-group {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    flex-direction: column; /* Empilez les éléments verticalement */
+    align-items: center; /* Centrez les éléments horizontalement */
+    margin-bottom: 15px; /* Ajustez la marge entre les groupes si nécessaire */
+}
+
+.nom, .mail {
+    width: 383px !important;
+    max-width: 100%;
+    height: 71px;
+}
+
+.message {
+    width: 383px !important;
+    max-width: 100%;
+}
+
+.wpcf7-form-control {
+    width: 100%;
+}
+
+.wpcf7 {
+    position: relative;
+    margin: 0 auto;
+    z-index: 1000;
+}
+
+.feuille-form {
+    position: absolute; /* Positionnement absolu par rapport au conteneur parent (.wpcf7) */
+    top: 79.5%; /* Placez l'image au centre verticalement par rapport au conteneur parent */
+    left: 37.5%; /* Placez l'image au centre horizontalement par rapport au conteneur parent */
+    transform: translate(-50%, -50%); /* Ajustez la position pour la centrer correctement */
+    max-width: 100%; /* L'image ne dépassera pas la largeur du conteneur parent */
+    height: auto; /* Assurez-vous que la hauteur est ajustée automatiquement pour conserver les proportions de l'image */
+    z-index: 0; /* Ajustez le z-index pour empiler l'image au-dessus du formulaire */
+    object-fit: cover; /* Remplissez l'espace disponible tout en préservant les proportions */
+}
+
+
+.cadre-bottom {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+/* BOUTON CONTACT FORM 7 NR*//* Style pour aligner le sélecteur et le bouton */
+
+/* Styles généraux */
+
+body {
+    font-family: 'Syne', sans-serif;
+}
+
+/* bouton "Envoyer" NR*/
+.wpcf7-form-control.wpcf7-submit {
+    background-color: #E0B9B4;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    display: block;
+    margin: 20px auto;
+}
+
+.wpcf7-form-control.wpcf7-submit:hover {
+    background-color: darkpink;
+}
+
+
+.cont-meg, .cont-bro, .cont-syl {
+    padding-right: 0px;
+}
+
+/*cannettes en pied de page*/
+.attachment-full.size-full.wp-image-243{
+    display: block;
+    width: 100% !important;
+    max-width: 100%;
+}
+
+/*page commander*/
+/* Utiliser Flexbox pour aligner les images des produits dans Contact Form 7 */
+.wpcf7 .formulaire-container.produits {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.wpcf7 .formulaire-container.produits .produit {
+    width: calc(23% - 15px); /* Ajustez la largeur pour permettre à quatre éléments de tenir sur une ligne avec espacement */
+    text-align: center;
+    box-sizing: border-box; 
+    margin-bottom: 15px;
+}
+ 
+.wpcf7 .formulaire-container.produits .produit img {
+    width: 100%; 
+    height: auto; 
+    max-width: 192px !important; 
+    max-height: 128px !important; 
+}
+
+
+/* textes du formulaire en blanc */
+.formulaire-container label,
+.formulaire-container input,
+.formulaire-container button,
+.formulaire-container h2 {
+    color: white;
+}
+
+/* Ligne blanche au-dessus de "Votre commande" */
+.label-produits {
+    border-top: 2px solid white;
+    margin-top: 20px;
+    padding-top: 10px;
+}
+
+/* Ajustement pour aligner le bouton OK à côté du sélecteur */
+.quantite-container,
+.produit .quantite-container {
+    display: flex;
+    align-items: center;
+}
+
+/* Style pour la ligne blanche entre les colonnes */
+.user-form{
+    margin-left: auto;
+    margin-right: 7%;
+}
+
+.formulaire-container.user-form.user-form-first {
+    border-right: 1px solid white;
+    padding-right: 8%;
+    margin-right: 0%;
+
+}
+
+
+/* Ajustement pour afficher les colonnes en une seule ligne sur un écran étroit */
+@media screen and (max-width: 767px) {
+    .formulaire-container:not(.produits) .produit {
+        width: 100%; 
+        margin-right: 0; 
+    }
+}
+
+
+/* Styles pour aligner les produits sur une seule ligne */
+.formulaire-container.produits {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+/* Style pour le conteneur du sélecteur et du bouton */
+.produit .quantite-container {
+    display: flex;
+    align-items: center;
+}
+
+/* Style pour le bouton OK dans le sélecteur */
+.produit .quantite-container .submit {
+    margin-left: 10px;
+}
+
+
+/* textes du formulaire en blanc */
+.formulaire-container label,
+.formulaire-container input,
+.formulaire-container button,
+.formulaire-container h2 {
+    color: white;
+}
+/* Ligne blanche au-dessus de "Votre commande" */
+.label-produits {
+    border-top: 2px solid white;
+    margin-top: 20px;
+    padding-top: 10px;
+}
+
+/* Ligne blanche en dessous des sélecteurs */
+.formulaire-container.produits {
+    border-bottom: 2px solid white;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+/* Ligne blanche entre les colonnes "Informations" et "Livraison" */
+.formulaire-container:not(.produits):nth-child(even) {
+    border-right: 2px solid white;
+    padding-right: 10px;
+    margin-right: 10px;
+}
+
+
+/* Ajustement pour éviter la bordure droite à l'extrémité du dernier élément du formulaire Contact Form 7 */
+.wpcf7-form p:last-child,
+.wpcf7-form div:last-child,
+.wpcf7-form fieldset:last-child {
+    border-right: none !important;
+    padding-right: 0 !important;
+    margin-right: 0 !important;
+    box-shadow: none !important;
+}
+
+
+/* Changement de la couleur du texte "Votre commande" en blanc */
+.label-produits {
+    color: white !important;
+}
+
+/* Centrer le bouton "Commander" */
+.centered {
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Style pour le bouton "Commander" */
+.commander-button {
+    background-color: #E0B9B4 !important;
+    color: white !important;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+
+.commander-button:hover {
+    background-color: #ff3399 !important;
+}
+
+/* Styles pour chaque produit input[type="text"] */
+.produit input[type="text"] {
+    color: black; 
+    width: 39px; 
+    height: 56px; 
+    padding: 0; 
+    margin: 0; 
+    box-sizing: border-box; 
+    font-family: 'Inter', sans-serif; 
+    font-size: 16px; 
+    text-align: center; 
+}
+
+/* Styles pour les champs à remplir dans les parties du dessous */
+.formulaire-container:not(.produits) input[type="text"],
+.formulaire-container:not(.produits) input[type="email"] {
+    color: black;
+    width: 383px; 
+    height: 71px; 
+    padding: 10px; 
+    box-sizing: border-box; 
+    font-family: 'Inter', sans-serif; 
+    font-size: 16px; 
+}
+
+/* Styles pour les boutons dans les parties du dessous */
+.formulaire-container:not(.produits) input[type="submit"] {
+    background-color: #E0B9B4 !important; 
+    color: white !important; 
+    padding: 10px 20px; 
+    border: none; 
+    cursor: pointer;
+    border-radius: 5px; 
+    font-family: 'Inter', sans-serif; 
+    font-size: 16px; 
+}
+
+.formulaire-container:not(.produits) input[type="submit"]:hover {
+    background-color: #ff3399 !important; /* Couleur rose plus foncée au survol */
+}
+
+/* Styles pour chaque produit input[type="text"] */
+.produit input[type="text"] {
+    color: black; 
+    width: 39px; 
+    height: 56px; 
+    padding: 0; 
+    margin: 0; 
+    box-sizing: border-box; 
+    font-family: 'Inter', sans-serif; 
+    font-size: 16px; 
+    text-align: center; 
+}
+
+/* Taille de police pour les champs nom, prénom, adresse, etc. */
+.formulaire-container input[type="text"] {
+    font-size: 20px;
+}
+
+/* Réinitialiser la taille de police pour les produits input[type="text"] dans la classe .produit */
+.formulaire-container.produits .produit input[type="text"] {
+    font-size: 16px;
+}
+
+/* Styles pour les champs nom, prenom, adresse... */
+.formulaire-container:not(.produits) input[type="text"] {
+    font-size: 20px;
+}
+
+/* Styles pour les boutons dans les parties du dessous */
+.formulaire-container:not(.produits) input[type="submit"] {
+    background-color: #ff69b4 !important;
+    color: white !important;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+
+.formulaire-container:not(.produits) input[type="submit"]:hover {
+    background-color: #ff3399 !important;
+}
+
+/* Centrer le bouton "Commander" */
+.centered {
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Style pour le bouton "Commander" */
+.commander-button {
+    background-color: #E0B9B4 !important;
+    color: white !important;
+    padding: 10px 20px;
+    border: none !important;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+
+.commander-button:hover {
+    background-color: #ff3399 !important;
+}
+
+/*media query accueil*/
+
+
+/* Styles pour les écrans étroits (moins de 769px) */
+@media (max-width: 769px) {
+    .banniere {
+        width: 100%; /* La bannière prend la largeur complète */
+        height: 1400px;
+    }
+    
+    /*image fruits*/
+    .cont-fruit {
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+
+    /* Réinitialisation des styles pour chaque conteneur de fruit */
+    .cont-fraise,
+    .cont-pamplemousse,
+    .cont-framboise,
+    .cont-citron {
+        flex: 1 1 100% !important; 
+        margin: 10px 0 !important; 
+    }
+ 
+
+/*fati vero marck */
+    .attachment-large.size-large.wp-image-330, 
+    .attachment-large.size-large.wp-image-336, 
+    .attachment-large.size-large.wp-image-335 
+        {
+            width: 60vw;
+            flex-direction: column; 
+            align-items: center !important;
+            top: auto;
+            margin: 0 auto;
+            display: flex; 
+    }
+
+    /*image fruits*/
+    .cont-fruit {
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+
+    /* Réinitialisation des styles pour chaque conteneur de fruit */
+    .cont-fraise,
+    .cont-pamplemousse,
+    .cont-framboise,
+    .cont-citron {
+        flex: 1 1 100% !important; 
+        margin: 10px 0 !important; 
+    }
+
+   /* Media Query pour ajuster le conteneur en dessous de 500px */
+    @media screen and (max-width: 500px) {
+        .cont-fruit {
+            width: 100%; /* Largeur de 100% pour remplir la largeur du parent */
+            max-width: none; /* Supprimer la largeur maximale pour permettre l'extension */
+            margin-left: 0px; /* Annuler la marge négative précédente */
+            text-align: center; /* Centrer les éléments enfants (les images) horizontalement */
+            display: flex; /* Utiliser la flexbox pour centrer verticalement */
+            align-items: center; /* Centrer les éléments enfants (les images) verticalement */
+        }
+    
+        .cont-fruit img {
+            .cont-fruit img {
+                width: 100%; /* Réglez la largeur des images à 100% de la largeur du conteneur */
+                max-width: 350px; /* Limitez la largeur maximale des images à 500 pixels */
+                height: auto; /* Ajustez automatiquement la hauteur pour conserver les proportions */
+                align-items: center;
+                display: flex;
+            }
+        }
+    }
+
+    /*conteneur canette*/
+    @media screen and (max-width: 500px) {
+        .cont-can {
+            width: 100vw; /* Largeur de la fenêtre visible pour éviter le débordement */
+            max-width: none; /* Supprimer la largeur maximale pour permettre l'extension */
+        }
+    }
+    /* Media Query pour ajuster le conteneur en dessous de 400px */
+    @media screen and (max-width: 400px) {
+    .cont-can {
+        width: 100vw; /* Largeur de la fenêtre visible pour éviter le débordement */
+        max-width: none; /* Supprimer la largeur maximale pour permettre l'extension */
+        margin-left: calc((100% - 100vw) / 2);
+    }
+    }
+
+ 
+/*cannette*/
+    .attachment-full.size-full.wp-image-243 {
+        width: 100% ;
+        max-width: 100%;
+        /*margin-right: 5px !important;*/
+        height: auto; /* Permet à la hauteur de l'image de s'ajuster automatiquement en conservant son ratio d'aspect */
+        object-fit: cover; /* Ajuste l'image pour couvrir complètement la boîte conteneur tout en conservant son ratio d'aspect */
+       
+    }
+    
+}
+/*conteneur fruit*/
+@media screen and (max-width: 767px) {
+    .cont-fruit {
+      display: flex;
+      text-align: center;
+      justify-content: center;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+.cont-2-accueil {
+    margin-bottom: 0px;
+}
+.attachment-large.size-large.wp-image-330, 
+.attachment-large.size-large.wp-image-336, 
+.attachment-large.size-large.wp-image-335 {
+    width: 70%;
+    max-width: 70%;
+}
+.cont-can {
+    bottom: -70px;
+    left: 0; /* Vous pouvez ajuster la position horizontale selon vos besoins */
+    width: 100%;
+    background-color: #fff; /* Vous pouvez ajuster la couleur de fond selon vos besoins */
+    z-index: 999; /* Assurez-vous que le conteneur est au-dessus du contenu */
+}
+}
+
+
+@media screen and (max-width: 768px) {
+    .attachment-full.size-full.wp-image-243 {
+        width: 100vw !important; /* Largeur de la fenêtre visible pour éviter le débordement */
+        max-width: none !important; /* Supprimer la largeur maximale pour permettre l'extension */
+    }
+
+
+/*titre*/
+@media screen and (max-width: 500px) {
+    .cont-titre {
+        display: flex;
+        justify-content: center !important;
+        text-align: center; /* Centrer le texte à l'intérieur du conteneur */
+        margin: 0 auto !important; /* Centrer le conteneur horizontalement */
+        max-width: 100%; 
+        margin-left: -20px;
+    }
+    .elementor-heading-title.elementor-size-default {
+        text-align: center;
+    }
+    .cont-titre {
+        display: inline-block; /* Pour que le texte suive le text-align: center; */
+        max-width: 100%; /* Assurer que le conteneur ne dépasse pas la largeur de l'écran */
+    }
+}
+
+.elementor-heading-title.elementor-size-default {
+    font-size: 28px !important;
+}
+}
+
+
+
+
+
+@media screen and (max-width: 430px) {
+ 
+
+/*logo header*/ 
+img.custom-logo {
+    margin-left: 0px;
+    max-width: 270px !important;
+}
+/*
+.banniere {
+    display: flex !important;
+  
+    gap: 0px !important;
+    margin-top: 20px;
+}
+
+/* 2éme titre*/ /*
+.elementor-heading-title.elementor-size-default {
+    margin-top: 30px;
+    margin-bottom: -30px;
+}
+
+}
+*/
+
+/*Media querie NR*/
+@media screen and (max-width: 430px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+/*titre*/
+.elementor-heading-title.elementor-size-default {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.texte-nr {
+    padding-bottom: 10px;
+}
+/* fleur*/
+.attachment-medium.size-medium.wp-image-359 {
+    position: absolute;
+    left: 270px;
+    top: 70px;
+    z-index: 1100000!important;
+}
+
+/*titre equipe*/
+.equipe {
+margin-top: 150px;
+padding-top: 50px;
+}
+/*container photo equipe
+.cont-meg,
+.cont-bro,
+.cont-syl {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    background-color: yellow; 
+}
+*/
+/*container principal equipe*/
+.e-con-inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    max-width: 100%;
+}
+.elementor-widget-container {
+    width: 350px;
+    max-width: 350px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+@media screen and (max-width: 1025px){
+       .banniere-nr {
+        display: flex;
+        flex-direction: column;  /* Changez la direction en colonne pour les écrans plus petits */
+        align-items: center;  /* Centrer verticalement les éléments */
+        background-color: white;
+        width: 100%;
+        max-width: 100%;
+    }   
+    .elementor-element .elementor-element-3e4fcac .e-con-full .e-flex .wpr-particle-no .wpr-jarallax-no .wpr-parallax-no .wpr-sticky-section-no .e-con .e-child {
+        display: none !important;
+    }
+    .cont-meg,
+    .cont-bro,
+    .cont-syl {
+        width: 100%;  
+        text-align: center !important;
+        justify-content: center !important;
+        align-items: center !important;
+        /* Ajoutez d'autres styles si nécessaire */
+    }
+
+    .cont-meg img,
+    .cont-bro img,
+    .cont-syl img{
+        display: block !important;
+        margin: 0 auto;
+        width: 100%;
+    }
+}
+    @media screen and (max-width: 1025px){
+    .cont-meg, .cont-syl {
+    margin-left: 23px !important;
+}
+}
+
+/*photo equipe*/
+@media screen and (max-width: 430px) {
+.cont-meg img,
+.cont-bro img,
+.cont-syl img {
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+}
+
+}
+}
+@media screen and (max-width: 768px) {
+    .banniere-nr {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .cont-meg,
+    .cont-bro,
+    .cont-syl {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 20px; /* Ajoutez une marge entre les éléments en mode colonne si nécessaire */
+    }
+}
+
+    
+}
+}
